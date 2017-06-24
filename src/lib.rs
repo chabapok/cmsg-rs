@@ -10,7 +10,7 @@ extern "C" {
     pub fn CMSG_ALIGN(length: usize) -> usize;
     pub fn CMSG_SPACE(length: usize) -> usize;
     pub fn CMSG_LEN(length: usize) -> usize;
-    pub fn CMSG_DATA(msgh: *const msghdr) -> *const u8;
+    pub fn CMSG_DATA(msgh: *const cmsghdr) -> *const u8;
 }
 
 
