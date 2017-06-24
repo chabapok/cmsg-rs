@@ -1,0 +1,8 @@
+[package]
+name = "cmsg"
+version = "0.1.0"
+authors = ["Alexadr <chabapok@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
